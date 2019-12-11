@@ -1,0 +1,25 @@
+.bgcompany{
+    background-image: url("../../Assets/company.png");
+    height:1000px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit:cover;
+    padding:0;
+    margin:0
+}
+
+.ourcompanystyle{
+    color:white;
+    margin-top: 2.5em;
+    font-size: 1.5em;
+}
+.textheader{
+    color: white;
+    margin:5em;
+}
+
+.textbody{
+    font-size:1em;
+    
+}

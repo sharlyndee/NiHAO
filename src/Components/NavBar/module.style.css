@@ -1,0 +1,44 @@
+.bghome{
+    background-image: url("../../Assets/homebg.png");
+    height:600px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:0;
+    margin:0;
+   
+
+}
+.homeimage{
+  height:100%;
+  width: 100%;
+}
+.btn{
+  background-color: transparent;
+}
+
+.borderbot{
+  border-bottom: 1px;
+  border-color: white;
+}
+.nav-link{
+  color: white;
+}
+.logo{
+  color: white;
+  text-align: center;
+  font-size: .75em;
+  border: 1.3px;
+ 
+  border-style:solid;
+}
+
+.marg{
+    margin:0;
+    padding:1em;
+    padding-left:2em;
+    padding-right:2em;
+
+}
+
