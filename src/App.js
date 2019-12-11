@@ -4,16 +4,19 @@ import OurBusiness from "./Pages/OurBusiness";
 import OurCompany from "./Pages/OurCompany";
 import NavBar from "./Components/NavBar"
 import Boards from "./Pages/BoardOfDirectors";
+import OrgChart from "./Pages/OrgChart";
+
 
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='overflow'>
         <NavBar />
         <OurBusiness />
         <OurCompany />
-        <Boards/>
+        <Boards />
+        <OrgChart/>
       </div>
     );
   }

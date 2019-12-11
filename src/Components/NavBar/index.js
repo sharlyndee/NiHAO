@@ -7,7 +7,7 @@ export class index extends Component {
     return (
       <div>
         <div className="container-fluid bghome">
-          <nav class="w-100 navbar position-fixed navbar-expand-lg  border p-4 ">
+          <nav class="w-100 navbar position-fixed navbar-expand-sm border ">
             <div className="logo">
               <p className='marg'>
                 <b>NiHAO MINERAL RESOURCES </b>
@@ -17,7 +17,7 @@ export class index extends Component {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <div className="col-3 offset-1">
+                <div className="col-2">
                   <li class="nav-item active">
                     <a class="nav-link navstyle" href="google.com">
                       HOME <span class="sr-only">(current)</span>
@@ -33,7 +33,7 @@ export class index extends Component {
                   </li>
                 </div>
 
-                <div className="col-6 navstyle">
+                <div className="col-4 navstyle">
                   <li class="nav-item active">
                     <a class="nav-link" href="google.com">
                       INVESTOR RELATIONS
@@ -41,7 +41,7 @@ export class index extends Component {
                   </li>
                 </div>
 
-                <div className="col-4 navstyle">
+                <div className="col-3 navstyle">
                   <li class="nav-item active">
                     <a class="nav-link" href="google.com">
                       DOWNLOADABLES
@@ -49,7 +49,7 @@ export class index extends Component {
                   </li>
                 </div>
 
-                <div className="col-4 navstyle">
+                <div className="col-3 navstyle">
                   <li class="nav-item active">
                     <a class="nav-link" href="google.com">
                       CONTACT US
@@ -58,7 +58,7 @@ export class index extends Component {
                 </div>
               </ul>
 
-              <div className="col-4 offset-4">
+              <div className="col-1 ">
                 <button className="btn" type="submit">
                   <img src={search} alt=""></img>
                 </button>

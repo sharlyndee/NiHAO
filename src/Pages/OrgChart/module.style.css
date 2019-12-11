@@ -1,0 +1,16 @@
+.orgchart {
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 12px;
+  display: inline-block;
+  border: 1px;
+  font-size: 2.5vmin;
+  background-color: rgb(146, 182, 199);
+}
+
+
+.chart{
+    height:100%;
+    width:100%
+}
