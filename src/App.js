@@ -5,6 +5,9 @@ import OurCompany from "./Pages/OurCompany";
 import NavBar from "./Components/NavBar"
 import Boards from "./Pages/BoardOfDirectors";
 import OrgChart from "./Pages/OrgChart";
+import Shareholding from "./Pages/Shareholding";
+import  Footer from "./Pages/Footer";
+
 
 
 
@@ -16,7 +19,10 @@ class App extends Component {
         <OurBusiness />
         <OurCompany />
         <Boards />
-        <OrgChart/>
+        <OrgChart />
+        <Shareholding />
+        <Footer />
+
       </div>
     );
   }

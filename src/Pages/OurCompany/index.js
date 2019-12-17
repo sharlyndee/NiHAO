@@ -11,7 +11,7 @@ class index extends Component {
                 </div>
                 <div className='row textheader'>
                     <p><b>Business Profile</b></p>
-                    <p className='textbody'>
+                    <p className='textbody mt-3'>
                         NiHAO MINERAL RESOURCES INTERNATIONAL, INC. (the "Company") was incorporated 
                         in the Philippines and registered with the Securities and Exchange Commission 
                         on July 9, 1975 as a mining company under the name Summit Minerals, Inc. On 
@@ -22,11 +22,10 @@ class index extends Component {
                         of a holding company. Subsequently, on February 
                         24, 1994, the Company changed its corporate name to “Magnum Holdings, Inc.”
                     </p>
-                        <br></br>
-                        &nbsp;
+                       
 
-                        <p><b>Description of Business</b></p>
-                        <p>
+                    <p className='mt-5'><b>Description of Business</b></p>
+                        <p className='mt-3'> 
                            The Company is a mining company engaged in exploring, developing,
                              and operating nickel properties. The Company aims to create an integrated mining 
                              company using its expertise in nickel exploration, access to processing technology, 
@@ -34,13 +33,13 @@ class index extends Component {
                              nickel mining and processing company in the Philippines.
                             <br></br>
                         </p>
-                        <p>
+                    <p className='mt-3'>
                             The Company’s name, “NiHAO,” stands for “Bountiful Nickel,” the primary mineral
                             which the Company intends to discover and mine. It derived its name by combining
                             the element symbol for Nickel “Ni,” and the Chinese character for noble or bountiful, “HAO.”
                            <br></br>
                         </p>
-                        <p>
+                    <p className='mt-3'>
                             The Company’s previously conducted mining operations in Dinapigue, Isabela.
                             It was then covered by an operating agreement dated June 13, 2012 between
                             NiHAO and Geogen Corporation (“Geogen”), which agreement was pre-terminated
@@ -49,31 +48,32 @@ class index extends Component {
                             based on 20% of Gross Profits net of income taxes.
                            <br></br>
                         </p>
-                        <p>
+                    <p className='mt-3'>
                             As of December 31, 2017, the Company has three (3) mining claims
                             located in the provinces of Zambales, Misamis Oriental and Masbate.
                             The Company’s Mining Claims cover a total of approximately 13,962.3808 hectares 
                         </p>
-                             <br></br>
-                              &nbsp;
-                         <p><b>Product</b></p>
-                              <br></br>
-                              &nbsp;
-                        <p className='textbody'>
-                            In the foreseeable future, the Company plans to ship nickel ore directly to its customers,
-                            similar to most nickel mining companies in the Philippines.
-                        </p>
-                        <p>
+                             
+               
+                    <h6 className=' mt-3'><b>Product</b> </h6>
+
+                    <p className=' mt-3'>
+                        In the foreseeable future, the Company plans to ship nickel ore directly to its customers,
+                        similar to most nickel mining companies in the Philippines.
+                    </p>
+
+                    <p className='mt-3'>
                             Also as mentioned above, the Company on August 2015 has inked an agreement with Nickel Asia
                             Corporation for a share in the profits of its wholly-owned subsidiary Geogen Corporation.
                             Geogen Corporation owns the Isabela mining claim would share with NiHAO 20% of Gross Profits 
                             net of income taxes from the operations of this mine.
                         </p>
-                        <p>
+                    <p className='mt-3'>
                             Also, NiHAO is looking forward to partnerships, joint ventures, and other business combinations 
                             with larger local and foreign mining companies to improve its production of ore and increase its 
                             exports and revenues from its other mines.
                         </p>
+                        
                    
                 </div>
             </div>

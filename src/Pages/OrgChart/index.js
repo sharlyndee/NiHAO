@@ -5,7 +5,7 @@ import "./module.style.css";
 class index extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container marginorg">
         <div className="row justify-content-center ">
           <h1 className="mb-5 mt-5 ">
             <u>Organizational Chart</u>
@@ -62,8 +62,31 @@ class index extends Component {
           </Tree>
         </div>
 
-        <div className="row justify-content-center mt-5">
-          <h1>Corporate Structure</h1>
+        <div className="row justify-content-center margincorpo">
+          <h1>
+            <u>Corporate Structure</u>
+          </h1>
+        </div>
+        <div className="chart">
+          <Tree
+            lineWidth={"2px"}
+            lineColor={"gray"}
+            label={<div className="orgNi orgchart">NiHao Mineral Resources International, Inc </div>}
+          >
+            <TreeNode
+              label={<div className="orgchart">Mina Tiera Garcia, <br></br> Inc. (100%) </div>}
+            ></TreeNode>
+            <TreeNode
+              label={<div className="orgchart">Bountiful Geomines, <br></br> Inc. (100%) </div>}
+            ></TreeNode>
+            <TreeNode
+              label={<div className="orgchart">Oregalore, <br></br> Inc. (100%) </div>}
+            >
+              <TreeNode
+                label={<div className="orgchart">Masbate13 <br></br> Philippines, Inc. (100%) </div>}
+              ></TreeNode>
+            </TreeNode>
+          </Tree>
         </div>
       </div>
     );
