@@ -12,14 +12,13 @@
   border-color: white;
 }
 .nav-link{
-  color: white;
+  color: black;
 }
 .logo{
-  color: white;
+  color: black;
   text-align: center;
   font-size: .75em;
   border: 1.3px;
- 
   border-style:solid;
 }
 

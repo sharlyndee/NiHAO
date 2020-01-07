@@ -59,10 +59,6 @@ class index extends Component {
     })
 
     return sum;
-   
-    
-   
-
   }
 
   render() {
@@ -105,6 +101,7 @@ class index extends Component {
           <tr>
             <td>Total</td>
             <td>{this.ConvertToNum()}</td>
+            <td>{this.state.capital.percentage}</td>
           </tr>
         </table>
 

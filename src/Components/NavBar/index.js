@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div>
         <div className="container-fluid">
-          <nav class="w-100 navbar position-fixed navbar-expand-sm border ">
+          <nav class="w-100 navbar fixed-top navbar-expand-sm border ">
             <div className="logo">
               <p className="marg">
                 <b>NiHAO MINERAL RESOURCES </b>

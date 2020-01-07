@@ -4,8 +4,7 @@
 
 .tablestyle{
       background-color:rgba(230, 230, 230, 0.493);
- border-radius: 1.5em;
-   
+    border-radius: 1.5em;
     border-color: blue;
     outline-style: none;
 
@@ -18,5 +17,3 @@
 
 }
 
-.tableradius{
-}

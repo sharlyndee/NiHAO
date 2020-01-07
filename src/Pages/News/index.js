@@ -9,11 +9,6 @@ class index extends Component {
         return (
           <div className="overflow">
             <NavBar />
-            hello
-                        sdafkdfla
-                    dkjfkdjfa
-                <br></br>
-                hi
             <Footer />
           </div>
         );
