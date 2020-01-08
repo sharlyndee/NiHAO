@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import "./module.style.css";
 import NavBar from "../../Components/NavBar";
 import Footer from "../../Pages/Footer";
+import Stockholders from "../../Pages/InvestorRelationStockholders";
+
 
 
 
@@ -89,135 +91,13 @@ class InvestorRelations extends Component {
         },
       ],
 
-      topstockholder: [
-        {
-          id: 1,
-          stockholder: "PCD Nominee Corporation (Filipino)",
-          shares: "544,438,078",
-          percentage: "53.91"
-        },
-        {
-          id: 2,
-          stockholder: "Jerry C. Angping",
-          shares: "327,100,000",
-          percentage: "32.39"
-        },
-        {
-          id: 3,
-          stockholder: "San-Ho Cheng",
-          shares: "55,000,000",
-          percentage: "5.45"
-        },
-        {
-          id: 4,
-          stockholder: "PCD Nominee Corporation (Foreign)",
-          shares: "42,832,087",
-          percentage: "4.24"
-        },
-        {
-          id: 5,
-          stockholder: "Macquarie Bank Limited",
-          shares: "33,000,000",
-          percentage: "3.27"
-        },
-        {
-          id: 6,
-          stockholder: "Chia Kim Teck",
-          shares: "2,349,732",
-          percentage: "0.23"
-        },
-        {
-          id: 7,
-          stockholder: "Diana Kaye Angping",
-          shares: "1,000,000",
-          percentage: "0.10"
-        },
-        {
-          id: 8,
-          stockholder: "Jerry C. Angpingg ITF Christian Angping",
-          shares: "1,000,000",
-          percentage: "0.10"
-        },
-        {
-          id: 9,
-          stockholder: "Jerry C. Angpingg ITF John Isaac Angping",
-          shares: "1,000,000",
-          percentage: "0.10"
-        },
-        {
-          id: 10,
-          stockholder: "Ma. Rhodora V. Angping",
-          shares: "1,000,000",
-          percentage: "0.10"
-        },
-        {
-          id: 11,
-          stockholder: "Michael T. Defensor",
-          shares: "160,000",
-          percentage: "0.10"
-        },
-        {
-          id: 12,
-          stockholder: "Jose Mariano Crisostomo",
-          shares: "100,000",
-          percentage: "0.01"
-        },
-        {
-          id: 13,
-          stockholder: "Leoben Luis T. Evangelista",
-          shares: "100,000",
-          percentage: "0.01"
-        },
-         {
-          id: 14,
-          stockholder: "Fe G. Fong",
-          shares: "100,000",
-          percentage: "0.01"
-        },
-        {
-          id: 15,
-          stockholder: "Ma. Carla Remedios E. Miranda",
-          shares: "100,000",
-          percentage: "0.01"
-        },
-        {
-          id: 16,
-          stockholder: "Howard C. Saavedra",
-          shares: "100,000",
-          percentage: "0.01"
-        },
-        {
-          id: 17,
-          stockholder: "Nicanor S. Jorge",
-          shares: "80,000",
-          percentage: "0.01"
-        },
-        {
-          id: 18,
-          stockholder: "Daniel C. Go",
-          shares: "50,000",
-          percentage: "0.00"
-        },
-        {
-          id: 19,
-          stockholder: "Bobby S. Gonzales",
-          shares: "50,000",
-          percentage: "0.00"
-        },
-         {
-          id: 20,
-          stockholder: "Roxanne Lee",
-          shares: "50,000",
-          percentage: "0.00"
-        },
-         
-      ]
+     
 
     }
   }
     render() {
         return (
-          <div className="container-fluid">
+          <div className="container-fluid overflow">
             <NavBar />
             <div className="container-fluid contmargin">
 
@@ -239,7 +119,7 @@ class InvestorRelations extends Component {
               </div>
 
               <table class="table table-bordered tablestyle">
-                <tr>
+                <tr className="text-center">
                   <td></td>
                   <td>Number of Shares</td>
                   <td>% of Issued Shares</td>
@@ -248,8 +128,8 @@ class InvestorRelations extends Component {
                 {this.state.foreign.map(foreign => (
                   <tr>
                     <td>{foreign.name}</td>
-                    <td>{foreign.shares}</td>
-                    <td>{foreign.percentage}</td>
+                    <td className="text-center">{foreign.shares}</td>
+                    <td className="text-center">{foreign.percentage}</td>
                   </tr>
                 ))}
                 <tr>
@@ -266,8 +146,8 @@ class InvestorRelations extends Component {
             </div>
 
             <table class="table table-bordered tablestyle">
-              <tr>
-                <td></td>
+              <tr className="text-center">
+                <td>Category of Shareholders</td>
                 <td>Number of Shares</td>
                 <td>% of Issued Shares</td>
               </tr>
@@ -275,8 +155,8 @@ class InvestorRelations extends Component {
               {this.state.publicowner.map(publicowner => (
                 <tr>
                   <td>{publicowner.name}</td>
-                  <td>{publicowner.shares}</td>
-                  <td>{publicowner.percentage}</td>
+                  <td className="text-center" >{publicowner.shares}</td>
+                  <td className="text-center">{publicowner.percentage}</td>
                 </tr>
               ))}
               <tr>
@@ -284,7 +164,64 @@ class InvestorRelations extends Component {
                 <td></td>
                 <td></td>
               </tr>
-            </table>
+              </table>
+              
+
+
+              <div className='row'>
+                <p>SHAREHOLDERS OWNING 5 PERCENT OR MORE as of December 31, 2018</p>
+              </div>
+
+              <table class="table table-bordered tablestyle">
+                <tr className="text-center">
+                  <td>Shareholder</td>
+                  <td>Nationality</td>
+                  <td>Number of Shares</td>
+                  <td>% of Issued Shares</td>
+
+                </tr>
+
+                {this.state.shareholders.map(shareholders => (
+                  <tr>
+                    <td>{shareholders.name}</td>
+                    <td className="text-center">{shareholders.nationality}</td>
+                    <td className="text-center">{shareholders.shares}</td>
+                    <td className="text-center">{shareholders.percentage}</td>
+
+                  </tr>
+                ))}
+                
+              </table>
+
+
+              <div className='row'>
+                <p>BENEFICIAL OWNERS OWNING 5 PERCENT OR MORE as of December 31, 2018</p>
+              </div>
+
+              <table class="table table-bordered tablestyle">
+                <tr className="text-center">
+                  <td>Shareholder</td>
+                  <td>Number of Shares</td>
+                  <td>% of Issued Shares</td>
+
+                </tr>
+
+                {this.state.owners.map(owners => (
+                  <tr>
+                    <td>{owners.shareholder}</td>
+                    <td className="text-center">{owners.shares}</td>
+                    <td className="text-center">{owners.percentage}</td>
+
+                  </tr>
+                ))}
+              </table>
+
+              <p>
+                The shares of NIHAO MINERAL RESOURCES INTERNATIONAL, INC. are listed and traded in the Philippine 
+                Stock Exchange under the code of NI.
+              </p>
+              <Stockholders />
+
             </div>
 
             <Footer />

@@ -65,7 +65,7 @@ class index extends Component {
     
     
     return (
-      <div className="container margin">
+      <div className="container marginshare">
         <div className="row justify-content-center mb-4">
           <p className="heading">
             <u>Shareholding Structure</u>

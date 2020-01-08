@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import NavBar from "../../Components/NavBar";
 import Footer from "../../Pages/Footer";
+import "./module.style.css";
+
 
 
 
@@ -9,7 +11,10 @@ class index extends Component {
         return (
           <div className="overflow">
             <NavBar />
-            <Footer />
+            <div className="container-fluid margin">
+             
+            </div>
+            <Footer className="footmargin"/>
           </div>
         );
     }

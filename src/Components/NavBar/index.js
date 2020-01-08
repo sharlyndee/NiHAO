@@ -18,7 +18,7 @@ class NavBar extends Component {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <div className="col-2">
+                <div className="col-2 offset-3">
                   <li class="nav-item active">
                     <Link to="/" class="nav-link navstyle">
                       <span class="sr-only">(current)</span>
