@@ -1,32 +1,29 @@
-
-.homeimage{
-  height:100%;
+.homeimage {
+  height: 100%;
   width: 100%;
 }
-.btn{
-  background-color: transparent;
+.btn {
+  background-color: white;
 }
 
-.borderbot{
+.borderbot {
   border-bottom: 1px;
   border-color: white;
 }
-.nav-link{
+.nav-link {
   color: black;
 }
-.logo{
+.logo {
   color: black;
   text-align: center;
-  font-size: .75em;
+  font-size: 0.75em;
   border: 1.3px;
-  border-style:solid;
+  border-style: solid;
 }
 
-.marg{
-    margin:0;
-    padding:1em;
-    padding-left:2em;
-    padding-right:2em;
-
+.marg {
+  margin: 0;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-

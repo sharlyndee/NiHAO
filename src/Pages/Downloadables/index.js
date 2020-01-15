@@ -2,6 +2,15 @@ import React, { Component } from 'react'
 import "./module.style.css";
 import NavBar from "../../Components/NavBar";
 import Footer from "../../Pages/Footer";
+import CodeOfBusiness from "../../Pages/CodeOfBusiness"
+import AnnualCorporate from "../../Pages/AnnualCorporate"
+import BoardCommittees from "../../Pages/BoardCommittees"
+import CorporateSocial from "../../Pages/CorporateSocial"
+import Enterprise from "../../Pages/EnterpriseRisk"
+import CompanyPolicies from "../../Pages/CompanyPolicies"
+
+
+
 
 
 
@@ -41,6 +50,13 @@ class index extends Component {
                     </div>
                 </div>
                 <Footer />
+                <CodeOfBusiness />
+                <AnnualCorporate />
+                <BoardCommittees />
+                <CorporateSocial />
+                <Enterprise />
+                <CompanyPolicies />
+
 
                             
             </div>
