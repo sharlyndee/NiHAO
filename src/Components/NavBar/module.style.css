@@ -27,3 +27,7 @@
   padding-left: 2em;
   padding-right: 2em;
 }
+
+.transparent{
+  background-color: transparent;
+}

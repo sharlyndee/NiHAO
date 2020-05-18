@@ -45,9 +45,17 @@ class NavBar extends Component {
 
                 <div className="col-3 navstyle">
                   <li class="nav-item active">
-                    <Link to="/downloadables" class="nav-link">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
                       DOWNLOADABLES
-                    </Link>
+                  </button>
+                     
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                      </div>
+                    </div>
                   </li>
                 </div>
 
